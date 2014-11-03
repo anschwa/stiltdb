@@ -1,0 +1,105 @@
+ @media screen and (max-width:700px), screen and (device-aspect-ratio:3/4), screen and (max-device-aspect-ratio: 3/2) {
+    
+    #search_wrapper{
+    margin:0 2%;
+    }
+    
+    #copyright:after{content:' |';}
+    #credits{position:static;}
+    
+    /***********Result Wrapper (Search Result)*********************/
+    #result_wrapper .article_inside{
+        -webkit-flex-direction:column;
+        -moz-flex-direction:column;
+        flex-direction:column;
+    }
+   
+    #result_data_wrapper div, #result_data_wrapper span{display:block;}
+    /*#result_data_wrapper .result_edit{position:static; padding:0.2em 0;}*/
+    
+    #result_images{
+        margin:0;
+        min-width:auto;
+    }
+    
+    #result_data_wrapper{
+            border-top:1px solid #ccc;
+            padding-top:1em;
+            margin:1em auto;
+    }#result_data_wrapper .result_edit{display:inline-block;}
+    
+    /*************Resolve a problem / view submitions***************/
+    .results_list li{
+        -webkit-flex-direction:column;
+        -moz-flex-direction:column;
+        flex-direction:column;
+    }
+
+    .results_list li span,
+    #resolve_wrapper .results_list li span,
+    #view_wrapper .results_list li span{
+        border:none;
+    }.result_time{text-align:right;
+    }#view_wrapper .result_edit{text-align:center;
+    }.result_title{text-align:center;}
+    
+    .result_resolve{
+        -webkit-order:1;
+        -moz-order:1;
+        order:1;
+    }
+    .result_title{
+        -webkit-order:2;
+        -moz-order:2;
+        order:2;
+    }
+    .result_time{
+        -webkit-order:4;
+        -moz-order:4;
+        order:4;
+    }
+    #feed_list .result_time{
+        font-size:0.8em;
+        border:none;
+    }
+
+    .result_edit_span{
+        -webkit-order:3;
+        -moz-order:3;
+        order:3;
+        text-align:right;
+        }.result_edit_span:hover{
+            background:none !important;
+            cursor:default !important;
+        }.result_edit:hover{
+            text-decoration:underline;
+            cursor:pointer !important;
+        }
+    
+    
+    /*******Radio / Button / Input Styles******/
+    .form_button_align{
+        display:block;
+        text-align:center;
+    }
+    
+    .form_button{
+        font-size:0.8em;
+    }
+    
+    
+    .radio_label_text{
+        bottom:0.5em;
+    }
+    
+    .regular-radio + label {
+        padding:0.7em;
+    }
+    
+     .regular-radio:checked + label:after {
+        width:1.05em;
+        height:1.05em;
+        left:0.175em;
+        top:0.175em;
+    }
+}
