@@ -11,10 +11,12 @@ Completed January 2014
 Created by Adam Schwartz.
 
 # Screenshots
-![search](https://raw.githubusercontent.com/daschwa/stiltdb/master/images/screenshot3.png)
+![search](./images/screenshot3.png)
 
 # Demo
-![demo](https://raw.githubusercontent.com/daschwa/stiltdb/master/stiltdb.gif)
+## [video](./stiltdb.mov)
+## Gif
+![demo](./stiltdb.gif)
 
 # Dependancies
 - [Lightbox 2](http://lokeshdhakar.com/projects/lightbox2/)
